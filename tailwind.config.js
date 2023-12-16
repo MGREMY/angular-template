@@ -3,11 +3,10 @@
  * @type {import('tailwindcss').Config}
  */
 
-export const content = [
-  './src/**/*.{html,ts}',
-  './node_modules/flowbite/**/*.js',
-];
-export const theme = {
-  extend: {},
+module.exports = {
+  content: ['./src/**/*.{html,ts}', './node_modules/flowbite/**/*.js'],
+  theme: {
+    extend: {},
+  },
+  plugins: [require('flowbite/plugin')],
 };
-export const plugins = [require('flowbite/plugin')];
