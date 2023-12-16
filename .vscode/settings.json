@@ -1,33 +1,11 @@
 {
-  "eslint.options": {
-    "extensions": [".ts", ".html"]
-  },
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "html"
-  ],
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "editor.formatOnSave": false,
-    "files.eol": "\n"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "editor.formatOnSave": false,
-    "files.eol": "\n"
-  },
   "[html][typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.foldingImportsByDefault": true,
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": "explicit"
-    }
+    },
+    "editor.formatOnSave": false,
+    "files.eol": "\n"
   }
 }

@@ -1,3 +1,5 @@
+/** @format */
+
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NgSwitch, NgSwitchDefault, NgSwitchCase } from '@angular/common';
@@ -11,7 +13,4 @@ import { NgSwitch, NgSwitchDefault, NgSwitchCase } from '@angular/common';
 })
 export class AppComponent {
   title = 'angular-template';
-  constructor() {
-    console.log('hello world !');
-  }
 }

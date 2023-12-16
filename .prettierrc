@@ -9,5 +9,6 @@
   "bracketSameLine": true,
   "singleAttributePerLine": true,
   "printWidth": 80,
-  "endOfLine": "lf"
+  "endOfLine": "lf",
+  "insertPragma": true
 }
