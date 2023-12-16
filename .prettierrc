@@ -11,8 +11,12 @@
   "endOfLine": "lf",
   "overrides": [
     {
+      "files": "*.component.html",
+      "options": { "parser": "html" }
+    },
+    {
       "files": "*.html",
-      "options": { "parser": "angular" }
+      "options": { "parser": "html" }
     }
   ]
 }
