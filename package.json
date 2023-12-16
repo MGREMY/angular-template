@@ -8,9 +8,9 @@
     "build:prod": "ng build --configuration prod",
     "watch": "ng build --watch --configuration dev",
     "test": "ng test",
+    "test:headless": "ng test --watch=false --browsers=ChromeHeadless",
     "lint": "ng lint",
     "lint:fix": "ng lint --fix",
-    "test:headless": "ng test --watch=false --browsers=ChromeHeadless",
     "pretty": "wpx prettier --write .",
     "prepare": "husky install"
   },
