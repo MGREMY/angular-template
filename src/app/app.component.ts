@@ -11,4 +11,7 @@ import { NgSwitch, NgSwitchDefault, NgSwitchCase } from "@angular/common";
 })
 export class AppComponent {
   title = "front";
+  constructor() {
+    console.log("hello world !");
+  }
 }
