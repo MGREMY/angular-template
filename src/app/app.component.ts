@@ -1,8 +1,9 @@
 /** @format */
 
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NgSwitch, NgSwitchDefault, NgSwitchCase } from '@angular/common';
+import { initFlowbite } from 'flowbite';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +12,10 @@ import { NgSwitch, NgSwitchDefault, NgSwitchCase } from '@angular/common';
   standalone: true,
   imports: [NgSwitch, NgSwitchDefault, NgSwitchCase, RouterOutlet],
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'angular-template';
+
+  ngOnInit(): void {
+    initFlowbite();
+  }
 }
