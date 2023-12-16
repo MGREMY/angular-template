@@ -10,7 +10,7 @@ import { NgSwitch, NgSwitchDefault, NgSwitchCase } from "@angular/common";
   imports: [NgSwitch, NgSwitchDefault, NgSwitchCase, RouterOutlet],
 })
 export class AppComponent {
-  title = "front";
+  title = "angular-template";
   constructor() {
     console.log("hello world !");
   }

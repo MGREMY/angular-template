@@ -15,10 +15,10 @@ describe("AppComponent", () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'front'`, () => {
+  it(`should have as title 'angular-template'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual("front");
+    expect(app.title).toEqual("angular-template");
   });
 
   it("should render title", () => {
@@ -26,7 +26,7 @@ describe("AppComponent", () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector(".content span")?.textContent).toContain(
-      "front app is running!"
+      "angular-template app is running!",
     );
   });
 });
