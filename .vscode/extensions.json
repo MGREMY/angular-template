@@ -4,6 +4,7 @@
     "angular.ng-template",
     "bradlc.vscode-tailwindcss",
     "dbaeumer.vscode-eslint",
-    "EditorConfig.EditorConfig"
+    "EditorConfig.EditorConfig",
+    "johnpapa.Angular2"
   ]
 }
